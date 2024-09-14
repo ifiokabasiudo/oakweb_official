@@ -13,6 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        'p22-bifur': ['P22 Bifur A Regular', 'sans-serif'],
+        'p22-constructivist': ['P22 Constructivist Block Regular', 'sans-serif'],
+        'proxima-regular': ['Proxima-Nova-Extra-Condensed', 'sans-serif'],
+        'proxima-bold': ['Proxima-Nova-Extra-Condensed-Bold', 'sans-serif'],
+      }
     },
   },
   plugins: [],

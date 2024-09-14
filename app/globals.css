@@ -8,13 +8,13 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -30,4 +30,24 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@font-face {
+  font-family: 'P22 Bifur A Regular';
+  src: url('../public/fonts/P22 Bifur A Regular/P22 Bifur A Regular.ttf');
+}
+
+@font-face {
+  font-family: 'P22 Constructivist Block Regular';
+  src: url('../public/fonts/P22 Constructivist Block Regular/P22 Constructivist Block Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Proxima-Nova-Extra-Condensed';
+  src: url('../public/fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-regular.otf');
+}
+
+@font-face {
+  font-family: 'Proxima-Nova-Extra-Condensed-Bold';
+  src: url('../public/fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanovacond-bold.otf');
 }
